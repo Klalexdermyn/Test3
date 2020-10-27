@@ -1,0 +1,32 @@
+.mnthpay-form {
+  &__wrap-input {
+    height: 100px;
+    padding-top: 14px;
+  }
+
+  &__input {
+    padding-left: 76px;
+    padding-right: 76px;
+  }
+  &__button {
+    margin-top: 16px !important;
+  }
+}
+.container {
+  &__result {
+    height: 100px;
+    justify-content: center;
+  }
+  &-divider {
+    margin-left: 45px !important;
+    margin-right: 45px !important;
+  }
+}
+.content {
+  margin: auto;
+  height: 500px;
+  width: 400px;
+  box-shadow: 1px 3px 12px #ced4da;
+  text-align: center;
+}
+
