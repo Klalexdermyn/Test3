@@ -1,0 +1,70 @@
+.calc-grid {
+  display: grid;
+  justify-content: center;
+  grid-template: repeat(6, minmax(60px, 78px)) / repeat(4, minmax(60px, 86px));
+  padding: 10px;
+  &__input {
+    border: 1px solid #505654;
+    padding: 30px;
+    &_result {
+      background-color: #5a5a5a;
+      grid-column: 1/5;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+    &_zero{
+      margin-left: 256px;
+      font-size: 50px;
+      color: white;
+    }
+    
+  }
+  &__button {
+    text-align: center;
+    border: 1px solid #505654;
+    border-right:none;
+    border-top: none;
+    background-color: #949392;
+    padding: 30px;
+    font-size: 36px;
+    color: white;
+
+    &_divide {
+      background-color: #ffb036;
+    }
+    &_multiply {
+      background-color: #ffb036;
+    }
+    &_minus {
+      background-color: #ffb036;
+    }
+    &_plus {
+      background-color: #ffb036;
+    }
+    &_equell {
+      border-bottom-right-radius: 10px;
+      background-color: #ffb036;
+    }
+    &_AC {
+      padding-left: 20px;
+      font-size: 32px;
+      background-color: #7e7e7d;
+    }
+    &_plusminus {
+      img {
+        position: relative;
+        top: -5px;
+      }
+      background-color: #7e7e7d;
+    }
+    &_procent {
+      background-color: #7e7e7d;
+      font-size: 28px;
+    }
+    &_zero {
+      
+      border-bottom-left-radius: 10px;
+      grid-column: 1/3;
+    }
+  }
+}
